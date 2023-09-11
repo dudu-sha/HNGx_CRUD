@@ -22,7 +22,6 @@ mongoose
 
 // GET Fetch all person
         app.get("/api",(req, res) => {
-        console.log('here')
         Item.find().then((items) => res.json(items));
         })
 
@@ -48,7 +47,7 @@ mongoose
         newItem
             .save()
             .then((item) => res.json(item))
-            .catch((err) => console.log(err));
+            .catch((err) => res.status(404).json({Failure: "Please provide a valid request Body"} ));
         });
 
 
@@ -59,10 +58,10 @@ mongoose
         const filter = { _id: req.params.id};
         const update = { name: req.body.name};
         await Item.findOneAndUpdate(filter, update).then((user)=>{
-            res.json({success: "User Updated Successfully"  })
+            res.json({Success: "User Updated Successfully"  })
             })
             .catch((err)=>{
-                res.json({ success: "User Update Fail" })
+                res.status(404).json({ Failure: "User Update Fail" })
 
             })
         })
@@ -74,7 +73,7 @@ mongoose
         if(response.deletedCount)
         res.json({ success: "person deleted Successfully" })
         else
-        res.json({ success: "person deletion error!" })
+        res.status(404).json({ Failure: "person deletion error!" })
 
         });
 const port = 3000 || 9000;
