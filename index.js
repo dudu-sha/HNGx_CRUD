@@ -6,7 +6,7 @@ const Item = require("./models/person");
 const app = express();
 const mongoose = require("mongoose");
 const db = config.get("mongoURI");
-const util = require('node:util');
+const util = require('util');
 app.use(cors());
 app.use(express.json());
 const options = {
