@@ -1,0 +1,4 @@
+{
+    "mongoURI":"mongodb+srv://lidiya:ZODOpz9q8UBUYDKV@cluster0.kdnxtqm.mongodb.net/hngxx?retryWrites=true&w=majority",
+    "jwtSecret":"montreslash_0spwIAfi"
+}
