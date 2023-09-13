@@ -7,7 +7,7 @@ This Endpoint contains four operations , below is listed the endpoint, the metho
    https://crud-api-6tmi.onrender.com/api
    ```
    Sample Response
-     ```
+ ```
 [
     {
         "_id": "64fefed854271e6bb0dcdff7",
