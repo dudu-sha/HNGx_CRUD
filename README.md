@@ -1,5 +1,6 @@
 # HNGx_CRUD
-This API Is developed using NodeJs, express ,MongoDB The API Supports CRUD Operations on a Person collection To set up and build the project Follow the below steps
+This API Is developed using NodeJs, express ,MongoDB.The API Supports CRUD operations on a Person collection.
+## To set up and build the project Follow the below steps
 ## 1 . Clone the repo
 to clone the repo , paste the below in ur CMD 
 ```
