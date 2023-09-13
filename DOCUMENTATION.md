@@ -88,10 +88,6 @@ https://crud-api-6tmi.onrender.com/api/6501626a1e0e9bb02210da41
 
 ### 5. Delete Existing User
    Method - **DELETE /api/{user_id}**
-   Sample Request -
-   ```
-   https://crud-api-6tmi.onrender.com/api/6501626a1e0e9bb02210da41
-   ```
    Sample Success Response -
    ```
     {
