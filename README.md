@@ -1,6 +1,9 @@
 # HNGx_CRUD
 This API Is developed using NodeJs, express ,MongoDB The API Supports CRUD Operations on a Person collection To set up and build the project Follow the below steps
 1 . Clone the repo
+```
+use this repo
+```
 2 . ensure You have npm , node js is installed on your local machine 
 3 . Run npm install inside the folder (this will install neccessary dependency) 
 4 . To change the DB connection, change the MongoURI inside the config file.
