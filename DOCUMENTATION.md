@@ -1,5 +1,9 @@
 # API Endponits
 This Endpoint contains four operations , below is listed the endpoint, the method , the body required and sample request and responses.
+You can download the post man collection from the below link.
+```
+https://drive.google.com/file/d/1SqcwhXOmZAJc0OQSkwyh-m3seace9bYN/view?usp=sharing
+```
 ## Fetch list of persons stored in DB
    Method - **GET  /api**
    Sample Response
